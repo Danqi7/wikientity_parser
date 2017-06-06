@@ -16,3 +16,7 @@ It constructs a dictionary where key is the wiki entity title, value is a triple
 python parse_first_paragraph.py -h
 ```
 3. Use pickle to unwrap the saved parsed result file into dictionary if you want to use the parse results later in your code
+4. The following default command parses 30 wiki entities and save it into a file "parse_wikitext_[current timestamp]"
+```
+python parse_first_paragraph.py
+```
